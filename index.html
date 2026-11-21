@@ -3,91 +3,254 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>סרטוני הסבר והדרכה · Tavor Ben-Shahar</title>
+		<title>סרטוני הסבר והדרכה לחברות טכנולוגיה · Tavor Ben-Shahar</title>
 		<meta
 			name="description"
-			content="סרטוני הסבר והדרכה מונפשים, ב-2D וב-3D, בעברית ובאנגלית, לחברות טכנולוגיה: קליטת עובדים, הדרכות והסבר המוצר למי שאינו מהנדס."
+			content="סרטוני הסבר והדרכה מונפשים, ב-2D וב-3D, בעברית ובאנגלית: קליטת עובדים, הדרכות והסבר המוצר למי שאינו מהנדס."
 		/>
-		<meta property="og:title" content="סרטוני הסבר והדרכה · Tavor Ben-Shahar" />
-		<meta property="og:description" content="טכנולוגיה מסובכת, מוסברת בשתי דקות. סרטוני הסבר והדרכה מונפשים לחברות טכנולוגיה." />
-		<meta property="og:image" content="https://studio.tavorbenshahar.com/media/semvision-demo-poster.jpg" />
+		<meta property="og:title" content="טכנולוגיה מסובכת, מוסברת בשתי דקות" />
+		<meta property="og:description" content="סרטוני הסבר והדרכה מונפשים לחברות טכנולוגיה, בעברית ובאנגלית." />
+		<meta property="og:image" content="https://studio.tavorbenshahar.com/media/hero.jpg" />
 		<meta property="og:type" content="website" />
+		<meta name="theme-color" content="#0B1628" />
 		<link rel="canonical" href="https://studio.tavorbenshahar.com/" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&display=swap" rel="stylesheet" />
 		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
-		<header class="bar">
-			<div class="wrap bar-inner">
-				<a class="brand" href="https://tavorbenshahar.com/" dir="ltr">
-					<span class="tb">TB</span>
-					<span>Tavor Ben-Shahar</span>
+		<header class="nav" data-nav>
+			<div class="wrap nav-inner">
+				<a class="logo" href="#top" aria-label="לראש העמוד">
+					<span class="logo-mark" aria-hidden="true">TB</span>
+					<span class="logo-text"><b dir="ltr">Tavor Ben-Shahar</b><small>סרטוני הסבר והדרכה</small></span>
 				</a>
-				<a class="pill" href="#contact">לקבוע שיחה</a>
+				<nav class="nav-links" aria-label="ניווט">
+					<a href="#services">שירותים</a>
+					<a href="#demo">דמו</a>
+					<a href="#process">תהליך</a>
+					<a href="#faq">שאלות</a>
+				</nav>
+				<a class="btn btn-sm btn-amber" href="#contact">לקבוע שיחה</a>
 			</div>
 		</header>
 
-		<main>
-			<section class="hero wrap">
-				<p class="eyebrow"><svg class="mark half" viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0A24 12 0 0 1 0 24Z" /></svg>סרטוני הסבר והדרכה</p>
-				<h1>טכנולוגיה מסובכת, <em>מוסברת בשתי דקות.</em></h1>
-				<p class="lead">
-					סרטונים מונפשים ב-2D וב-3D, בעברית או באנגלית, לחברות טכנולוגיה: לקליטת עובדים חדשים, להדרכות, ולהסבר המוצר
-					לכל מי שאינו מהנדס.
-				</p>
-			</section>
-
-			<section class="demo wrap" aria-labelledby="demo-title">
-				<p class="eyebrow"><svg class="mark quarter" viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0A24 24 0 0 1 24 24H0Z" /></svg>דמו</p>
-				<h2 id="demo-title">מה SEMVision בכלל עושה?</h2>
-				<p class="muted">
-					סרטון קליטה לעובדים שמעולם לא היו בחדר הנקי: מה הורס צ'יפים, איך מוצאים פגמים, ולמה צריך מיקרוסקופ אלקטרונים. שתי
-					דמויות, תלת-ממד, עברית, כ-2 דקות.
-				</p>
-				<figure>
-					<video controls preload="metadata" playsinline poster="media/semvision-demo-poster.jpg">
-						<source src="media/semvision-demo-he.mp4" type="video/mp4" />
-						הדפדפן לא מנגן וידאו. <a href="media/semvision-demo-he.mp4">להורדת הסרטון</a>.
-					</video>
-					<figcaption>קונספט להמחשה שהכנתי ביוזמתי. זה לא סרטון רשמי של Applied Materials ולא נעשה בהזמנתה.</figcaption>
-				</figure>
-			</section>
-
-			<section class="wrap grid2">
-				<div>
-					<p class="eyebrow"><svg class="mark circle" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0a12 12 0 1 1 0 24a12 12 0 1 1 0-24Z" /></svg>מה מקבלים</p>
-					<ul class="dots">
-						<li>סרטון של 2–3 דקות, ב-2D או ב-3D</li>
-						<li>עברית או אנגלית, עם כתוביות מובנות</li>
-						<li>תסריט שכתוב לקהל שלכם, בלי ז'רגון</li>
-						<li>גרסה לרוחב, ואם צריך גם גרסה לאורך לרשתות</li>
-					</ul>
+		<main id="top">
+			<!-- HERO -->
+			<section class="hero">
+				<div class="wrap hero-grid">
+					<div class="hero-copy">
+						<p class="chip"><span class="dot"></span>סרטוני הסבר והדרכה לחברות טכנולוגיה</p>
+						<h1>טכנולוגיה מסובכת, <span class="hl">מוסברת בשתי דקות.</span></h1>
+						<p class="hero-lead">
+							סרטונים מונפשים ב-2D וב-3D, בעברית ובאנגלית. לקליטת עובדים חדשים, להדרכות, ולהסבר המוצר לכל מי שאינו מהנדס.
+						</p>
+						<div class="hero-ctas">
+							<a class="btn btn-amber" href="#contact">לקבוע שיחת היכרות</a>
+							<a class="btn btn-ghost" href="#demo" data-play><span class="play-ico" aria-hidden="true"></span>לצפות בדמו</a>
+						</div>
+						<ul class="facts">
+							<li><b>2D · 3D</b><span>אנימציה</span></li>
+							<li><b>עברית · English</b><span>קריינות וכתוביות</span></li>
+							<li><b>2–3 דק'</b><span>לסרטון</span></li>
+						</ul>
+					</div>
+					<a class="hero-visual" href="#demo" data-play aria-label="לצפות בסרטון הדמו">
+						<img src="media/hero.jpg" alt="פריים מתוך סרטון הדמו: הולוגרמה של פרוסת סיליקון מעל שני מהנדסים בחדר נקי" width="960" height="432" />
+						<span class="play-big" aria-hidden="true"></span>
+						<span class="hero-tag">דמו · 2:09</span>
+					</a>
 				</div>
-				<div>
-					<p class="eyebrow"><svg class="mark leaf" viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0H12A12 12 0 0 1 24 12V24H12A12 12 0 0 1 0 12Z" /></svg>איך זה עובד</p>
+			</section>
+
+			<!-- SERVICES -->
+			<section id="services" class="section">
+				<div class="wrap">
+					<header class="sec-head">
+						<p class="kicker">שירותים</p>
+						<h2>סרטון אחד שחוסך עשרות הסברים</h2>
+						<p class="sec-lead">כל סרטון נכתב לקהל שלו: מה הוא כבר יודע, מה הוא צריך להבין, ומה יגרום לו לזכור.</p>
+					</header>
+					<div class="cards">
+						<article class="card">
+							<img src="media/onboarding.jpg" alt="" loading="lazy" width="960" height="432" />
+							<div class="card-body">
+								<h3>קליטת עובדים</h3>
+								<p>מה החברה עושה, איך המוצר עובד ומה קורה ברצפת הייצור, לעובדים שלא מגיעים מהתחום.</p>
+							</div>
+						</article>
+						<article class="card">
+							<img src="media/sort.jpg" alt="" loading="lazy" width="960" height="432" />
+							<div class="card-body">
+								<h3>הדרכות ונהלים</h3>
+								<p>אבטחת מידע, שימוש בכלי AI ותהליכי עבודה. הדרכה קצרה שאנשים באמת רואים עד הסוף.</p>
+							</div>
+						</article>
+						<article class="card">
+							<img src="media/drone.jpg" alt="" loading="lazy" width="960" height="432" />
+							<div class="card-body">
+								<h3>הסבר המוצר</h3>
+								<p>ללקוחות, למשקיעים ולצוותי מכירות: מה המוצר עושה ולמה זה חשוב, בלי ז'רגון.</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+
+			<!-- DEMO -->
+			<section id="demo" class="section section-alt">
+				<div class="wrap demo-grid">
+					<div class="demo-copy">
+						<p class="kicker">דמו</p>
+						<h2>מה SEMVision בכלל עושה?</h2>
+						<p class="sec-lead">
+							סרטון קליטה לעובדים שמעולם לא היו בחדר הנקי. שני מהנדסים מסבירים מה הורס צ'יפים, איך מוצאים פגמים, ולמה צריך
+							מיקרוסקופ אלקטרונים.
+						</p>
+						<ul class="checks">
+							<li>אנלוגיות מהיומיום: עיר זעירה, לוויין ורחפן</li>
+							<li>שתי דמויות ותלת-ממד מלא</li>
+							<li>קריינות וכתוביות בעברית</li>
+							<li>2:09 דקות, כולל סיכום</li>
+						</ul>
+					</div>
+					<figure class="player">
+						<video controls preload="metadata" playsinline poster="media/semvision-demo-poster.jpg" data-video>
+							<source src="media/semvision-demo-he.mp4" type="video/mp4" />
+							<a href="media/semvision-demo-he.mp4">להורדת הסרטון</a>
+						</video>
+						<figcaption>קונספט להמחשה שהכנתי ביוזמתי. זה לא סרטון רשמי של Applied Materials ולא נעשה בהזמנתה.</figcaption>
+					</figure>
+				</div>
+			</section>
+
+			<!-- WHY -->
+			<section class="section">
+				<div class="wrap">
+					<header class="sec-head">
+						<p class="kicker">הגישה</p>
+						<h2>הסבר טוב מתחיל במי שצופה</h2>
+					</header>
+					<div class="pillars">
+						<div class="pillar">
+							<span class="pi pi-1" aria-hidden="true"></span>
+							<h3>נכתב למי שלא מבין</h3>
+							<p>כל מונח טכני מקבל תמונה מהיומיום. אם עובד מכספים מבין, גם המהנדס יבין.</p>
+						</div>
+						<div class="pillar">
+							<span class="pi pi-2" aria-hidden="true"></span>
+							<h3>המומחה שלכם מאשר</h3>
+							<p>שתי נקודות אישור לפני ההפקה: התסריט והפריימים. ככה התוכן מדויק, והתיקונים זולים.</p>
+						</div>
+						<div class="pillar">
+							<span class="pi pi-3" aria-hidden="true"></span>
+							<h3>עברית אמיתית</h3>
+							<p>כמו שמדברים במשרד: המונחים המקצועיים באנגלית, כל השאר בעברית טבעית.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- PROCESS -->
+			<section id="process" class="section section-alt">
+				<div class="wrap">
+					<header class="sec-head">
+						<p class="kicker">תהליך</p>
+						<h2>מהשיחה הראשונה לסרטון, בכשבועיים</h2>
+					</header>
 					<ol class="steps">
-						<li><strong>שיחה וחומרים.</strong> אתם שולחים מסמך, מצגת או נוהל, וממנים איש מקצוע אחד שמאשר.</li>
-						<li><strong>תסריט.</strong> אני כותב, הוא מאשר. שינויים בשלב הזה לא עולים כלום.</li>
-						<li><strong>פריימים וקולות.</strong> רואים את הסרטון בתמונות ושומעים את הקולות, לפני ההפקה המלאה.</li>
-						<li><strong>הפקה ומסירה.</strong> בדרך כלל כשבועיים מהשיחה הראשונה.</li>
+						<li>
+							<span class="num">1</span>
+							<h3>שיחה וחומרים</h3>
+							<p>שולחים מסמך, מצגת או נוהל, וממנים איש מקצוע אחד שמאשר.</p>
+						</li>
+						<li>
+							<span class="num">2</span>
+							<h3>תסריט</h3>
+							<p>אני כותב, אתם מאשרים. שינויים בשלב הזה לא עולים כלום.</p>
+						</li>
+						<li>
+							<span class="num">3</span>
+							<h3>פריימים וקולות</h3>
+							<p>רואים את הסרטון בתמונות ושומעים את הקולות לפני ההפקה המלאה.</p>
+						</li>
+						<li>
+							<span class="num">4</span>
+							<h3>הפקה ומסירה</h3>
+							<p>סרטון מוכן לרוחב, ואם צריך גם גרסה לאורך לרשתות.</p>
+						</li>
 					</ol>
 				</div>
 			</section>
 
-			<section id="contact" class="cta wrap">
-				<h2>יש לכם משהו שקשה להסביר?</h2>
-				<p class="muted">שיחת היכרות של 20 דקות: מה צריך להסביר, למי, ואיך זה יכול להיראות.</p>
-				<div class="actions">
-					<a class="btn" href="https://calendar.app.google/7pWQKCqEaaHwPvpG9" target="_blank" rel="noopener">לקבוע שיחה</a>
-					<a class="link" href="mailto:tzavor29@gmail.com?subject=%D7%A1%D7%A8%D7%98%D7%95%D7%9F%20%D7%94%D7%A1%D7%91%D7%A8" dir="ltr">tzavor29@gmail.com</a>
+			<!-- FAQ -->
+			<section id="faq" class="section">
+				<div class="wrap faq-wrap">
+					<header class="sec-head">
+						<p class="kicker">שאלות</p>
+						<h2>שאלות נפוצות</h2>
+					</header>
+					<div class="faq">
+						<details>
+							<summary>כמה זמן לוקח סרטון?</summary>
+							<p>בדרך כלל כשבועיים מהשיחה הראשונה ועד סרטון מוכן. הקצב תלוי בעיקר בזמני האישור אצלכם.</p>
+						</details>
+						<details>
+							<summary>מה אתם צריכים לספק?</summary>
+							<p>חומר מקור, כמו מסמך, מצגת או נוהל, ואיש מקצוע אחד שזמין לאשר את התסריט ואת הפריימים.</p>
+						</details>
+						<details>
+							<summary>אפשר באנגלית, או בשתי השפות?</summary>
+							<p>כן. כל סרטון יכול לצאת בעברית, באנגלית, או בשתי גרסאות.</p>
+						</details>
+						<details>
+							<summary>2D או 3D, מה ההבדל?</summary>
+							<p>2D מהיר יותר ומתאים להסברים עם תרשימים וטקסט. 3D מתאים כשרוצים דמויות ועולם שלם, כמו בדמו. נחליט יחד בשיחה הראשונה.</p>
+						</details>
+						<details>
+							<summary>מה קורה אם משהו לא מדויק?</summary>
+							<p>בגלל זה יש שתי נקודות אישור לפני ההפקה. ככה טעויות נתפסות בתסריט או בפריימים, לפני שהסרטון מרונדר.</p>
+						</details>
+					</div>
+				</div>
+			</section>
+
+			<!-- CTA -->
+			<section id="contact" class="cta">
+				<div class="wrap cta-inner">
+					<h2>יש לכם משהו שקשה להסביר?</h2>
+					<p>שיחת היכרות של 20 דקות: מה צריך להסביר, למי, ואיך זה יכול להיראות.</p>
+					<div class="cta-actions">
+						<a class="btn btn-amber" href="https://calendar.app.google/7pWQKCqEaaHwPvpG9" target="_blank" rel="noopener">לקבוע שיחת היכרות</a>
+						<a class="cta-mail" href="mailto:tzavor29@gmail.com?subject=%D7%A1%D7%A8%D7%98%D7%95%D7%9F%20%D7%94%D7%A1%D7%91%D7%A8" dir="ltr">tzavor29@gmail.com</a>
+					</div>
 				</div>
 			</section>
 		</main>
 
 		<footer class="foot">
 			<div class="wrap foot-inner">
-				<span dir="ltr">© 2026 Tavor Ben-Shahar</span>
-				<a href="https://tavorbenshahar.com/" dir="ltr">tavorbenshahar.com</a>
+				<span class="logo logo-foot">
+					<span class="logo-mark" aria-hidden="true">TB</span>
+					<span class="logo-text"><b dir="ltr">Tavor Ben-Shahar</b><small>סרטוני הסבר והדרכה</small></span>
+				</span>
+				<span class="foot-meta" dir="ltr">© 2026 Tavor Ben-Shahar</span>
 			</div>
 		</footer>
+
+		<script>
+			// Solid nav after scrolling; "watch the demo" links scroll to the player and start it.
+			const nav = document.querySelector('[data-nav]');
+			const onScroll = () => nav.classList.toggle('is-solid', window.scrollY > 24);
+			onScroll();
+			window.addEventListener('scroll', onScroll, { passive: true });
+			const video = document.querySelector('[data-video]');
+			document.querySelectorAll('[data-play]').forEach((a) =>
+				a.addEventListener('click', () => {
+					setTimeout(() => video.play().catch(() => {}), 600);
+				})
+			);
+		</script>
 	</body>
 </html>
